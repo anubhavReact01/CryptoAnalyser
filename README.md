@@ -1,6 +1,7 @@
+
 # 📈 CryptoAnalyser – Cryptocurrency Market Dashboard
 
-> A modern cryptocurrency tracking and analysis application built with React that enables users to explore real-time market data, monitor cryptocurrency prices, and analyze market trends through a clean and responsive user interface.
+> A modern React-based cryptocurrency tracking application that enables users to explore real-time cryptocurrency market data, analyze coin performance, and monitor market trends through a clean and responsive user interface.
 
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
@@ -12,21 +13,22 @@
 
 # 📖 Overview
 
-CryptoAnalyser is a React-based cryptocurrency dashboard that provides users with real-time cryptocurrency information using public APIs. The application allows users to monitor market prices, analyze market trends, search cryptocurrencies, and view detailed information through an intuitive and responsive interface.
+CryptoAnalyser is a React-based cryptocurrency dashboard that provides users with real-time cryptocurrency information through public APIs. The application allows users to browse market data, search cryptocurrencies, analyze price movements, and explore detailed information in an intuitive and responsive interface.
 
-The project follows modern frontend development practices including reusable React components, API integration, responsive layouts, and efficient state management.
+The project demonstrates API integration, component-based architecture, dynamic rendering, and responsive frontend development using React.
 
 ---
 
 # 📌 Project Highlights
 
-- React Single Page Application
-- Real-Time Cryptocurrency Data
+- React Single Page Application (SPA)
 - REST API Integration
+- Real-Time Cryptocurrency Data
+- Search & Filter Functionality
 - Responsive User Interface
 - Component-Based Architecture
-- Search & Filter Functionality
-- Clean and Modular Code Structure
+- Dynamic Data Rendering
+- Clean & Modular Code Structure
 
 ---
 
@@ -38,7 +40,7 @@ The project follows modern frontend development practices including reusable Rea
 - Live Market Prices
 - Market Capitalization
 - Trading Volume
-- Price Changes
+- Price Change Statistics
 - Trending Coins
 
 ---
@@ -46,10 +48,10 @@ The project follows modern frontend development practices including reusable Rea
 ## 🔍 Search & Analysis
 
 - Search Cryptocurrencies
-- Detailed Coin Information
-- Price Statistics
+- View Coin Details
 - Market Ranking
-- Historical Information
+- Price Statistics
+- Cryptocurrency Information
 
 ---
 
@@ -58,9 +60,9 @@ The project follows modern frontend development practices including reusable Rea
 - Responsive Design
 - Modern Layout
 - Interactive Cards
-- Fast Navigation
 - Mobile Friendly
-- Clean UI
+- Smooth Navigation
+- Clean User Experience
 
 ---
 
@@ -99,7 +101,7 @@ Axios API Requests
 Cryptocurrency REST API
       │
       ▼
-Display Live Market Data
+Render Live Market Data
 ```
 
 ---
@@ -111,8 +113,8 @@ Display Live Market Data
 - React.js
 - JavaScript (ES6)
 - Axios
-- CSS3
 - HTML5
+- CSS3
 
 ---
 
@@ -133,6 +135,7 @@ CryptoAnalyser
 │   └── index.js
 │
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -140,10 +143,10 @@ CryptoAnalyser
 
 # ⚙️ Installation
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/CryptoAnalyser.git
+git clone https://github.com/anubhavReact01/CryptoAnalyser.git
 
 cd CryptoAnalyser
 ```
@@ -170,32 +173,40 @@ No environment variables are required for this project.
 
 # ✅ Features Implemented
 
-- Live Cryptocurrency Data
-- API Integration
-- Search Functionality
-- Market Dashboard
+- React Single Page Application
+- REST API Integration
+- Cryptocurrency Search
+- Live Market Dashboard
+- Dynamic Data Rendering
 - Responsive Design
 - Reusable Components
-- Dynamic Data Rendering
 
 ---
 
 # 🚀 Future Enhancements
 
-- Watchlist Feature
 - Dark Mode
+- Watchlist Feature
 - Historical Price Charts
 - Portfolio Tracker
 - Currency Converter
-- News Integration
-- Price Alerts
 - Favorite Coins
+- Price Alerts
+- Crypto News Integration
 - Authentication
-- Advanced Analytics
+- Advanced Market Analytics
 
 ---
 
-# 👨‍💻 Author
+# 🙏 Acknowledgement
+
+This project was initially inspired by an existing open-source/tutorial implementation. I customized and enhanced the application to strengthen my understanding of React, REST API integration, component-based architecture, and responsive UI development.
+
+The modifications include improvements to the user interface, project structure, and overall implementation as part of my learning journey.
+
+---
+
+# 👨‍💻 Maintained & Enhanced By
 
 Anubhav Singh
 
@@ -204,7 +215,8 @@ MERN Stack Developer
 GitHub: https://github.com/anubhavReact01
 
 
+---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
